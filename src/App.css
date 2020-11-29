@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card-body{
+background-image: url(./logo.svg);
+background-repeat: no-repeat;
+/* margin:100px; */
+
+/* background-size: cover; */
+background-position: 50% 50%;
+background-color: lightblue;
+width: 50%;
+margin-left: 25%;
+
+}
+
+.login{
+  background-color: lightblue;
+  height: 2000px;
+  
+}
+.enable{background-color: red !important;display: none !important;}
+.registration{
+  background-color: lightblue;
+  height: 2000px;
+  
+}
+
+.grid{
+  width: 100px;
+  border-radius: 10px;
+  border:1px solid #f1f1f1;
+  margin:5px;
+  float: left;
+  height: 100px;
+
+}
+
+.product-img{
+  display: block;
+  height: 50px;
+}
+.header{
+  height: 100px;
+  width:100%;
+  background-color: darkgrey;
+}
+.detailimg{
+  float: left;
+  height: 250px;
+  width: 20%;
+}
+.description{
+width: 80%;
+float: right;
+min-height: 500px;
+}
+.btn-warning{
+  margin-top: 100px;
+}
+.red{
+  font-size: 10px;
+  color:red;
+}
